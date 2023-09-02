@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-      <div class="flex justify-around truncate">
+      <div class="flex justify-around truncate" id="Home">
         <div class="text-3xl font-bold text-blue-500">
           <h1>SANTOSH</h1>
         </div>
@@ -21,12 +21,12 @@
           <nav class="hover:text-teal-800"><a href="#Blog">BLOG</a></nav>
           <nav class="hover:text-teal-800"><a href="#Contact">CONTACT</a></nav>
         </div>
-        <i class="fa-solid fa-bars h-2 w-3 m-5 md:hidden"></i>
+        <i class="fa-solid fa-bars text-2xl  md:hidden"></i>
       </div>
       
     
       <!-- Hero Section -->
-      <section class="m-20">
+      <section class="m-20" >
       <div class="flex justify-center items-center max-md:flex-col-reverse">
         <div>
           <p class="font-4xl font-bold m-5 sm:w-fit">
@@ -51,7 +51,7 @@
       </div>
     </section>
     <!-- Second Hero section  -->
-    <section class="mt-20 ">
+    <section class="mt-20 " id="About">
       <div class="flex justify-center items-center max-md:flex-wrap ">
         <div>
           <img src="./secondPhoto2.png" alt="">
@@ -65,6 +65,29 @@
         </div>
       </div>
     </section>
+    <!-- Footer -->
+    <footer class="mt-20 bg-black p-20 ">
+      <div class="flex justify-center items-center gap-10 ">
+        <div>
+          <div class="flex flex-wrap gap-10 text-white font-bold">
+            <nav class="hover:text-red-500"><a href="#Home">HOME</a></nav>
+            <nav class="hover:text-red-500"><a href="#About">ABOUT</a></nav>
+            <nav class="hover:text-red-500"><a href="#Services">SERVICES</a></nav>
+            <nav class="hover:text-red-500"><a href="#Portfolio">PORTFOLIO</a></nav>
+            <nav class="hover:text-red-500"><a href="#Blog">BLOG</a></nav>
+            <nav class="hover:text-red-500"><a href="#Contact">CONTACT</a></nav>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-10 text-white font-bold text-3xl ">
+          <i class="fa-brands fa-linkedin hover:text-sky-400"></i>
+          <i class="fa-brands fa-github hover:text-white"></i>
+          <i class="fa-brands fa-whatsapp hover:text-green-300"></i>
+          <i class="fa-brands fa-facebook hover:text-sky-500"></i>
+          <i class="fa-brands fa-twitter hover:text-sky-600"></i>
+          <i class="fa-brands fa-instagram hover:text-pink-600"></i>
+        </div>
+      </div>
+    </footer>
 </header>
   </body>
 </html>
